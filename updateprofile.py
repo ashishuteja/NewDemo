@@ -29,3 +29,4 @@ class updateprofilee:
         element = self.driver.find_element(By.CSS_SELECTOR,"#ctl00_Body_spanMsgEducationCert")
         assert element.text == "Your profile has been updated"
         time.sleep(10)
+        time.sleep(5)
